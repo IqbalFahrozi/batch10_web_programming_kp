@@ -1,0 +1,67 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+
+.profile-photo img {
+  /* Atur agar gambar mengisi seluruh area div dengan efek bulat yang sama */
+  width: 100px;
+  height: 100px;
+  /* Atur agar gambar tidak terpengaruh oleh efek bulat pada div */
+  border-radius: 50%;
+  /* Atur agar gambar tidak terpotong jika aspek rasio berbeda */
+  object-fit: cover;
+  border: 2px solid yellow;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* tambahkan CSS untuk section profile disini */
