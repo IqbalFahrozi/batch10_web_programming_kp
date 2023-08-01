@@ -1,0 +1,12 @@
+Bilangan prima adalah bilangan bulat positif yang lebih besar dari 1 dan hanya dapat dibagi oleh 1 dan dirinya sendiri tanpa sisa.
+Misalnya, 2, 3, 5, 7, 11, 13, dan seterusnya adalah bilangan prima.
+
+Algoritma untuk mencari bilangan prima yang sederhana dapat dilakukan dengan mengikuti langkah-langkah berikut:
+
+1. Input: Terima angka yang akan diperiksa apakah itu bilangan prima. Misalnya, kita akan memasukkan angka "n" yang akan diperiksa apakah itu bilangan prima.
+2. Pengecekan kondisi awal: Jika "n" kurang dari 2, maka langsung dapat dikatakan bahwa angka tersebut bukan bilangan prima. Sebab, bilangan prima harus lebih besar dari 1.
+3. Loop: Selanjutnya, kita akan menggunakan loop untuk memeriksa apakah "n" dapat dibagi dengan bilangan lain selain 1 dan dirinya sendiri tanpa sisa.
+    a. Loop dimulai dari 2, karena setiap bilangan lebih kecil dari 2 pasti sudah diperiksa pada kondisi awal.
+    b. Loop berjalan hingga mencapai akar kuadrat dari "n". Hal ini karena jika ada faktor yang lebih besar dari akar kuadrat "n", maka pasti akan ada faktor yang lebih kecil dari akar kuadrat "n" juga.
+    c. Selama loop berjalan, kita akan memeriksa apakah "n" dapat dibagi dengan bilangan loop (misalnya i) tanpa sisa. Jika ya, berarti "n" bukan bilangan prima dan kita dapat keluar dari loop.
+4. Output: Jika loop berakhir tanpa menemukan faktor lain selain 1 dan dirinya sendiri, berarti "n" adalah bilangan prima.
