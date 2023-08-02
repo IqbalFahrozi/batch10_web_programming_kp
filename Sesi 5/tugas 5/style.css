@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #outputText {
+    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+  }
+  
