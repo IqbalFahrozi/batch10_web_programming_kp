@@ -1,0 +1,23 @@
+1) Judul Algoritma : Menghitung Luas dan Keliling Lingkaran.
+2) Inputan untuk menghitung luas dan keliling lingkaran :
+    -Masukkan nilai phi (Nilai Default 3.14)
+    -Masukkan nilai jari-jari
+3) Langkah kalkulasi :
+  -menghitung luas lingkaran 
+      a) Luas Lingkaran  = phi x r x r
+        Misal : nilai jari-jari (r) = 4 
+        Luas Lingkaran = 3.14 x 4 x4 
+        Luas Lingkaran  = 50,24
+
+  -menghitung keliling lingkaran 
+      a) Keliling Lingkaran = 2 x phi x r
+        Keliling Lingkaran = 2 x 3,14 x 4
+        Keliling Lingkaran = 25,12
+
+4) Tampilkan hasil kalkulasi dari perhitungan luas dan keliling lingkaran (Hitung)
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Change Color</title>
+  <style>
+    /* Styling untuk teks */
+    .changingText {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* Keyframes untuk animasi warna pada teks pertama */
+    @keyframes changeColor1 {
+      0% { color: red; }
+      25% { color: blue; }
+      50% { color: green; }
+      75% { color: orange; }
+      100% { color: purple; }
+    }
+
+    /* Keyframes untuk animasi warna pada teks kedua
+    @keyframes changeColor2 {
+      0% { color: magenta; }
+      25% { color: yellow; }
+      50% { color: cyan; }
+      75% { color: pink; }
+      100% { color: lime; }
+    }
+
+    Keyframes untuk animasi warna pada teks ketiga */
+    @keyframes changeColor3 {
+      0% { color: navy; }
+      25% { color: teal; }
+      50% { color: maroon; }
+      75% { color: silver; }
+      100% { color: gold; }
+    }
+  </style>
+</head>
+<body>
+  <p class="changingText" style="animation: changeColor1 5s infinite;">Teks pertama berubah warna.</p>
+  <p class="changingText" style="animation: changeColor2 5s infinite;">Teks kedua berubah warna.</p>
+  <p class="changingText" style="animation: changeColor3 5s infinite;">Teks ketiga berubah warna.</p>
+</body>
+</html>

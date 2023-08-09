@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Perulangan</title>
+  </head>
+  <body>
+    <button onclick="print()">Print 3x</button>
+    <div id="text"></div>
+
+    <script>
+      function print() {
+        const dt = document.getElementById('text');
+        let hitung = 0;
+        for (let hitung = 0; hitung < 3; hitung = hitung + 1) {
+          dt.innerHTML = dt.innerHTML + '<p>saya sudah belajar for loop</p>';
+        }
+      }
+    </script>
+  </body>
+</html>

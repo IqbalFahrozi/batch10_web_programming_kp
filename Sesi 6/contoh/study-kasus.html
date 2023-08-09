@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="label">Masukkan Nomor Hp</label>
+    <input type="number" />
+
+    <script type="text/javascript">
+      var message = 'Function Disabled!';
+      function clickdsb() {
+        if (event.button == 2) {
+          alert(message);
+          return false;
+        }
+      }
+      function clickbsb(e) {
+        if (document.layers || (document.getElementById && !document.all)) {
+          if (e.which == 2 || e.which == 3) {
+            alert(message);
+            return false;
+          }
+        }
+      }
+      if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown = clickbsb;
+      } else if (document.all && !document.getElementById) {
+        document.onmousedown = clickdsb;
+      }
+
+      document.oncontextmenu = new Function('alert(message);return false');
+    </script>
+  </body>
+</html>

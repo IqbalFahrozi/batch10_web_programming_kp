@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mengenal Evnet di JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Mengenal Evnet di Javascript</h1>
+    <h2>www.hacktiv.com</h2>
+
+    <!-- Memberikan event pada element tombol -->
+    <button onclick="tampilkan_nama()">KLIK SAYA</button>
+
+    <!-- id hasil -->
+    <div id="hasil"></div>
+
+    <script>
+      // membuat funstion tampilkan_nama
+
+      function tampilkan_nama() {
+        document.getElementById('hasil').innerHTML = '<h3>Nama saya adalah Iqbal Fahrozi</h3>';
+      }
+    </script>
+  </body>
+</html>
